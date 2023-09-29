@@ -1,0 +1,25 @@
+{'domain': '.1688.com', 'expiry': 1708619815, 'httpOnly': False, 'name': 'tfstk', 'path': '/', 'sameSite': 'Lax', 'secure': False, 'value': 'dFOeQeNhKXhF3qvd7t1yuajDjyfdcsnbLQs5rUYlRMj3OWZkQa_bquYov3RPj6XJdgsC4_8J0VijGjTpJ_CncmGfQmYdw5zHvjlXJeC88u0XIj_rYMSCUq8s80mlBmYAjBT38YZ_lHsaZ7zf89jmMGPuZC7e-iXwouQM7huicu2PKNQNcVuwJuWjn'}
+{'domain': '.1688.com', 'expiry': 1727627815, 'httpOnly': False, 'name': 'ali_apache_track', 'path': '/', 'sameSite': 'Lax', 'secure': False, 'value': 'c_mid=b2b-1998752075|c_lid=%E9%BA%BB%E4%BA%9A%E6%98%86|c_ms=1'}
+{'domain': '.1688.com', 'expiry': 1693672617, 'httpOnly': False, 'name': '_m_h5_tk', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '69b49ccda4656dfebf19211d9df53e3b_1693076816915'}
+{'domain': '.1688.com', 'expiry': 1727627816, 'httpOnly': False, 'name': 'cna', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'IRhxHfxdMm0CAX13ZfcpRS+o'}
+{'domain': '.1688.com', 'httpOnly': False, 'name': '_csrf_token', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '1693067815540'}
+{'domain': '.1688.com', 'expiry': 1724603816, 'httpOnly': False, 'name': '__mwb_logon_id__', 'path': '/', 'sameSite': 'Lax', 'secure': False, 'value': '%25E9%25BA%25BB%25E4%25BA%259A%25E6%2598%2586'}
+{'domain': '.1688.com', 'expiry': 1708619816, 'httpOnly': False, 'name': 'l', 'path': '/', 'sameSite': 'Lax', 'secure': False, 'value': 'fBOZbT4lN76UaRfbXOfaFurza77OSIRYSuPzaNbMi9fPO_6H5QUGW1twMgxMC3GcF6WyR3xWjmOpBeYBqIVseFRtuQIXdpMmnmOk-Wf..'}
+{'domain': '.1688.com', 'expiry': 1693672617, 'httpOnly': False, 'name': '_m_h5_tk_enc', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '354def22ef02ab0aa5cd762f76c1ce94'}
+{'domain': '.1688.com', 'expiry': 1708619816, 'httpOnly': False, 'name': 'isg', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'BIGB6VGTgTql-O0Oea5LdK9CkM2brvWghyyXH-PWfQjnyqGcK_4FcK_IqD-MR43Y'}
+{'domain': '.1688.com', 'httpOnly': False, 'name': 'ali_apache_tracktmp', 'path': '/', 'sameSite': 'Lax', 'secure': False, 'value': 'c_w_signed=Y'}
+{'domain': '.1688.com', 'httpOnly': False, 'name': '__cn_logon_id__', 'path': '/', 'sameSite': 'Lax', 'secure': False, 'value': '%E9%BA%BB%E4%BA%9A%E6%98%86'}
+{'domain': '.1688.com', 'expiry': 1724603817, 'httpOnly': False, 'name': 'mwb', 'path': '/', 'sameSite': 'Lax', 'secure': False, 'value': 'ng'}
+{'domain': '.1688.com', 'httpOnly': True, 'name': 'uc4', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'nk4=0%40o5%2BexWuyQYb5MPzQmhcZprQ%3D&id4=0%40UOBZmSQAMsohga98uywHMDlxrSYA'}
+{'domain': '.1688.com', 'expiry': 1693327016, 'httpOnly': False, 'name': 'xlly_s', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '1'}
+{'domain': '.1688.com', 'httpOnly': False, 'name': '__cn_logon__', 'path': '/', 'sameSite': 'Lax', 'secure': False, 'value': 'true'}
+{'domain': '.1688.com', 'httpOnly': False, 'name': 'sg', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '%E6%98%8650'}
+{'domain': '.1688.com', 'expiry': 1724603815, 'httpOnly': False, 'name': 'lid', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '%E9%BA%BB%E4%BA%9A%E6%98%86'}
+{'domain': '.1688.com', 'httpOnly': False, 'name': 'unb', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '1998752075'}
+{'domain': '.1688.com', 'httpOnly': True, 'name': 'csg', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '99d0dc8a'}
+{'domain': '.1688.com', 'httpOnly': False, 'name': '_tb_token_', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'e3603eb83396d'}
+{'domain': '.1688.com', 'httpOnly': True, 'name': 'cookie2', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '1447b6764829160bd47bfdf86257b100'}
+{'domain': '.1688.com', 'httpOnly': False, 'name': 't', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'e467f026c6424b9e8b72a20ce7e2a12a'}
+{'domain': '.1688.com', 'httpOnly': True, 'name': 'sgcookie', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'E100y0PCm4V03EPSrCv%2FPTmCGpaYVS40vUtBznjPMPszqPsJ4fHMAIBq33g3wo2Uvhms3ehAorj7bVT57w%2B6HSgOZafKCa0fwV3XKyE48zJIBPuW28YP92W9x6%2B6aqEqCJX0'}
+{'domain': '.1688.com', 'httpOnly': True, 'name': 'cookie17', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'UojdQ1Ifs3EFcw%3D%3D'}
+{'domain': '.1688.com', 'httpOnly': True, 'name': 'cookie1', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'BxeC3lmf20c1YTl6%2F96Ovec6VnV37BAFvVQOAwcIras%3D'}

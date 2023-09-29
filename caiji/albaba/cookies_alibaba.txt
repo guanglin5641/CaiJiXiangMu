@@ -1,0 +1,27 @@
+{'domain': '.taobao.com', 'expiry': 1711207052, 'httpOnly': False, 'name': 'tfstk', 'path': '/', 'sameSite': 'Lax', 'secure': False, 'value': 'dI-2fWqcomn29jh5lZSwLMLIZVSAXMhIQh11IdvGhsfDldXGbQAsHs9iMC-NZQyjM1gv_NR6wNA11KwvyB93cngAflSAXGcIODiQHKIOjshIADGo8bGxOXiIAKpAXGcBlZlEBtmYjhx1nVFm57GjH3WVo4pcZlXJ4t7VtK4_jO-g6TvyaYcQsP7ceT5IUYJY_wgh.'}
+{'domain': '.taobao.com', 'expiry': 1711207052, 'httpOnly': False, 'name': 'l', 'path': '/', 'sameSite': 'Lax', 'secure': False, 'value': 'fBriSSmuPLU9o20sBOfaFurza77OSIRYYuPzaNbMi9fPOt5B5i35W1HfPjT6C3GcF606R3xWjmOpBeYBqQAonxv9w8VMULkmndLHR35..'}
+{'domain': '.taobao.com', 'httpOnly': False, 'name': 'uc1', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'cookie16=U%2BGCWk%2F74Mx5tgzv3dWpnhjPaQ%3D%3D&pas=0&cookie14=Uoe9aOAOKwOFTg%3D%3D&cookie21=UIHiLt3xSift4ZS1LW77rg%3D%3D&cookie15=URm48syIIVrSKA%3D%3D&existShop=false'}
+{'domain': '.taobao.com', 'httpOnly': False, 'name': 'dnk', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '%5Cu9EBB%5Cu4E9A%5Cu6606'}
+{'domain': '.taobao.com', 'httpOnly': False, 'name': 'cancelledSubSites', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'empty'}
+{'domain': '.taobao.com', 'httpOnly': True, 'name': 'cookie1', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'BxeC3lmf20c1YTl6%2F96Ovec6VnV37BAFvVQOAwcIras%3D'}
+{'domain': '.taobao.com', 'httpOnly': False, 'name': '_l_g_', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'Ug%3D%3D'}
+{'domain': '.taobao.com', 'httpOnly': False, 'name': '_nk_', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '%5Cu9EBB%5Cu4E9A%5Cu6606'}
+{'domain': '.taobao.com', 'httpOnly': False, 'name': 'existShop', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'MTY5NTY1NTA1MA%3D%3D'}
+{'domain': '.taobao.com', 'httpOnly': False, 'name': 'csg', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'e468e129'}
+{'domain': '.taobao.com', 'expiry': 1698275850, 'httpOnly': True, 'name': 'uc3', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'lg2=URm48syIIVrSKA%3D%3D&nk2=odeGzQ3i&vt3=F8dCsGuskLlPcXjHtps%3D&id2=UojdQ1Ifs3EFcw%3D%3D'}
+{'domain': '.taobao.com', 'httpOnly': True, 'name': 'unb', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '1998752075'}
+{'domain': '.taobao.com', 'httpOnly': False, 'name': 'sg', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '%E6%98%8650'}
+{'domain': '.taobao.com', 'expiry': 1698275850, 'httpOnly': False, 'name': 'lgc', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '%5Cu9EBB%5Cu4E9A%5Cu6606'}
+{'domain': '.taobao.com', 'expiry': 1711207052, 'httpOnly': False, 'name': 'isg', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'BFxc6_vgVX6W5SEiQs_yj2YhLXoO1QD_GncaaDZdQccqgf0LXuB-jzQj5-h5EjhX'}
+{'domain': '.taobao.com', 'httpOnly': True, 'name': 'skt', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '483488f09aad79e4'}
+{'domain': '.taobao.com', 'expiry': 1698275850, 'httpOnly': True, 'name': 'uc4', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'id4=0%40UOBZmSQAMsohga98uywBHZi%2F5nMi&nk4=0%40o5%2BexWuyQYb5MPpITmYsGlg%3D'}
+{'domain': '.taobao.com', 'httpOnly': True, 'name': 'cookie2', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '1c8cfdcaff21fc43cd0e2e80ce251fd8'}
+{'domain': '.taobao.com', 'expiry': 1727219850, 'httpOnly': True, 'name': 'sgcookie', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'E100EhKKwgOAGA5bdBCZ3O6je0hzVld4ucPUPnYbc1DwDLuSKKqUVV%2BTYCSYZqzvTxxg5sL40IPYZ2RguHqdr6aBwmu3kXlHxBA%2BBau%2FXkqKwolKTxTZSfKnFt5zspEZNt1e'}
+{'domain': '.taobao.com', 'expiry': 1727219850, 'httpOnly': False, 'name': '_cc_', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'URm48syIZQ%3D%3D'}
+{'domain': '.taobao.com', 'httpOnly': True, 'name': 'cookie17', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'UojdQ1Ifs3EFcw%3D%3D'}
+{'domain': '.taobao.com', 'expiry': 1695914242, 'httpOnly': False, 'name': 'xlly_s', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '1'}
+{'domain': '.taobao.com', 'expiry': 1727219850, 'httpOnly': False, 'name': 'tracknick', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': '%5Cu9EBB%5Cu4E9A%5Cu6606'}
+{'domain': '.taobao.com', 'expiry': 1730215042, 'httpOnly': False, 'name': 'cna', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'gZKYHTfHS2MCAX13YEMvyYZ1'}
+{'domain': '.taobao.com', 'expiry': 1703459850, 'httpOnly': False, 'name': 't', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'a162da86d32787e694c56cb82acfc94b'}
+{'domain': '.taobao.com', 'httpOnly': False, 'name': '_tb_token_', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'ee03950bba77b'}
+{'domain': '.taobao.com', 'httpOnly': True, 'name': '_samesite_flag_', 'path': '/', 'sameSite': 'None', 'secure': True, 'value': 'true'}
