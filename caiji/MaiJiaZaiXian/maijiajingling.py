@@ -1,6 +1,6 @@
 import requests
 import json
-import caiji.mysql as mysql
+import mysql
  # 登录
 def login():
     url = "https://pro.gateway.lonfenner.com/auth/cus/login"
@@ -34,7 +34,7 @@ def login():
     print('登录成功')
     return bearer_token
  # 获取ID和主体
-def get_api_data(authorization):
+def get_api_data(authorization, caiji=None):
     url = "https://pro.gateway.lonfenner.com/esproduct/mine/product/list"
     params = {
         "isAsc": "",
@@ -63,7 +63,8 @@ def get_api_data(authorization):
             sourceUrl = item["sourceUrl"] if item["sourceUrl"] is not None else "Null"
             values = id, sku, salePrice, title, sourceUrl, 20
             print(values)
-            mysql.insert_sql('data', 'parent_parentage', '`MJ_id`,`Seller_SKU`, `Standard Price`, `Item Name`, URL,Quantity', values)
+            mysql.insert_sql('data', 'parent_parentage', '`MJ_id`,`Seller_SKU`, `Standard_Price`, `Item_Name`, URL,Quantity', values)
+            # mysql.insert_sql('data', 'parent_parentage', '`MJ_id`,`Seller_SKU`, `Standard Price`, `Item Name`, URL,Quantity', values)
         else:
             print("无效的数据项：", item)
     return json_response
@@ -90,20 +91,24 @@ def update_list():
         json_response = get_api_list(id, authorization)
         json_parent = json_response["data"]
         parent_sku = json_parent["sku"]
-        bulletPoint1 = json_parent['description']["bulletPoint1"].replace("'", " ")
-        bulletPoint2 = json_parent['description']["bulletPoint2"].replace("'", " ")
-        bulletPoint3 = json_parent['description']["bulletPoint3"].replace("'", " ")
-        bulletPoint4 = json_parent['description']["bulletPoint4"].replace("'", " ")
-        bulletPoint5 = json_parent['description']["bulletPoint5"].replace("'", " ")
-        Product_Description = json_parent['description']["textDescription"].replace("\n", "<br/>").replace("'", " ")
+        bulletPoint1 = json_parent['description'].get("bulletPoint1", "").replace("'", " ")
+        bulletPoint2 = json_parent['description'].get("bulletPoint2", "").replace("'", " ")
+        bulletPoint3 = json_parent['description'].get("bulletPoint3", "").replace("'", " ")
+        bulletPoint4 = json_parent['description'].get("bulletPoint4", "").replace("'", " ")
+        bulletPoint5 = json_parent['description'].get("bulletPoint5", "").replace("'", " ")
+        Product_Description = ""
+        try:
+            Product_Description = json_parent['description'].get("textDescription", "").replace("\n", "<br/>").replace("'", " ")
+        except KeyError:
+            pass
         update_data = {
             "bullet_point1": bulletPoint1,
             "bullet_point2": bulletPoint2,
             "bullet_point3": bulletPoint3,
             "bullet_point4": bulletPoint4,
             "bullet_point5": bulletPoint5,
+            "Product_Description": Product_Description
         }
-        update_data["Product_Description"] = json_parent['description']["textDescription"].replace("\n", "<br/>").replace("'", " ")
         where = "WHERE `Seller_SKU` = '%s'" % parent_sku
         mysql.update_sql('data', 'parent_parentage', update_data, where)
         for item in json_response["data"]["children"]:
@@ -115,20 +120,18 @@ def update_list():
                 title = item.get("title", "Null")
                 salePrice = item["salePrice"]
                 Quantity = 20
-                main_image_url = item['images'][0].get("sourceUrl", "Null")if len(item['images']) > 0 else "Null"
-                other_image_urls1 = item['images'][1].get("sourceUrl", "Null")if len(item['images']) > 1 else "Null"
-                other_image_urls2 = item['images'][2].get("sourceUrl", "Null")if len(item['images']) > 2 else "Null"
-                other_image_urls3 = item['images'][3].get("sourceUrl", "Null")if len(item['images']) > 3 else "Null"
-                other_image_urls4 = item['images'][4].get("sourceUrl", "Null")if len(item['images']) > 4 else "Null"
-                other_image_urls5 = item['images'][5].get("sourceUrl", "Null")if len(item['images']) > 5 else "Null"
-                other_image_urls6 = item['images'][6].get("sourceUrl", "Null")if len(item['images']) > 6 else "Null"
-                other_image_urls7 = item['images'][7].get("sourceUrl", "Null")if len(item['images']) > 7 else "Null"
+                main_image_url = item['images'][0].get("sourceUrl", "Null") if len(item['images']) > 0 else "Null"
+                other_image_urls1 = item['images'][1].get("sourceUrl", "Null") if len(item['images']) > 1 else "Null"
+                other_image_urls2 = item['images'][2].get("sourceUrl", "Null") if len(item['images']) > 2 else "Null"
+                other_image_urls3 = item['images'][3].get("sourceUrl", "Null") if len(item['images']) > 3 else "Null"
+                other_image_urls4 = item['images'][4].get("sourceUrl", "Null") if len(item['images']) > 4 else "Null"
+                other_image_urls5 = item['images'][5].get("sourceUrl", "Null") if len(item['images']) > 5 else "Null"
+                other_image_urls6 = item['images'][6].get("sourceUrl", "Null") if len(item['images']) > 6 else "Null"
+                other_image_urls7 = item['images'][7].get("sourceUrl", "Null") if len(item['images']) > 7 else "Null"
                 other_image_urls8 = item['images'][8].get("sourceUrl", "Null") if len(item['images']) > 8 else "Null"
                 variation_theme = item['variationData']['themeCode']
                 color_name = item['variationData']['items'][0].get("value", "Null")
-                size_name = item['variationData']['items'][1].get("value", "Null")
-
-
+                size_name = item['variationData']['items'][1].get("value", "Null") if len(item['variationData']['items']) > 1 else "Null"
                 values = (
                     sku, upc, UPC_type, title, salePrice, Quantity, main_image_url,
                     other_image_urls1, other_image_urls2, other_image_urls3,
