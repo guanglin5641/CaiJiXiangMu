@@ -1,0 +1,5 @@
+# config.yaml
+yw_config:
+  api_url: "https://open.yw56.com.cn/api/order"
+  api_token: "71F17676889F8BA565655B5F2D301D68"
+  user_id: "20170073"
